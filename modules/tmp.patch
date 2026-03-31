@@ -1,0 +1,7 @@
+*** Begin Patch
+*** Update File: modules/MMM-EgyptAR/MMM-EgyptAR.js
+@@
+-		this.pureJsFaceAvailable = false;
++		this.localMediaPipeSource = this.file ? this.file('vendor') : '';
++		this.pureJsFaceAvailable = false;
+*** End Patch
